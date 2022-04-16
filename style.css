@@ -39,16 +39,9 @@ h2{
     font-size: 35px;
 }
 
-.button{
-    position: sticky;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255, 255, 255);
-    color: rgb(241, 0, 0);
-    border:groove;
-    float: left;
-    display: block;
-    z-index: 999px;
+button{
+  background-color: #e7e7e7; color: black;
+font-weight: bold;
 }
 a{
     text-decoration: none;
