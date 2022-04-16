@@ -11,6 +11,19 @@
     border:groove;
     background-color: #555 ;
 }
+.self{
+  position: relative;
+  margin-top: 600px;
+}
+.About_Me{
+  position: absolute;
+  margin-left:50% ;
+}
+
+.Image{
+position: absolute;
+width: 100%;
+}
 
 h1 {
     display: block;
@@ -56,8 +69,8 @@ p{
     width: 75%;
 
 }
-image{
-    max-width: 100%;
+img{
+    width: 13%;
     height: auto;
     margin: auto;
     box-sizing: border-box;
@@ -85,7 +98,8 @@ image{
 
 
   @viewport {
-    width: device-width ;
+    width: 95%  ;
+    max-width: 1024px;
     zoom: 1.0 ;
   }
 
@@ -93,5 +107,5 @@ image{
     width: device-width ;
   }
 
-  @media screen and (min-width:320px) and (max-width:640px) {
+  @media screen and (min-width:320px) and (max-width:960px) {
   }
