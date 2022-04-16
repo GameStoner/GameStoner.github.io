@@ -12,18 +12,16 @@
     background-color: #555 ;
     z-index: 999px;
 }
-.self{
-  position: relative;
-  margin-top: 600px;
-}
-.About_Me{
-  position: absolute;
-  margin-left:50% ;
-}
 
-.Image{
-position: absolute;
-width: 100%;
+.About_Me{
+  text-align: center;
+  width: 25%;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px;
+  margin-left:35%;
+  margin-top: 15px;
 }
 
 h1 {
@@ -74,10 +72,12 @@ p{
 
 }
 img{
-    width: 13%;
+    max-width: 20%;
     height: auto;
-    margin: auto;
+    margin-top: -500px;
     box-sizing: border-box;
+    border: 15px solid #f2f2f2;
+    border-radius: 4px;
 }
   .sticky {
     position: fixed;
