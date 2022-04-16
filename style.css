@@ -10,6 +10,7 @@
     text-align: center;
     border:groove;
     background-color: #555 ;
+    z-index: 999px;
 }
 .self{
   position: relative;
@@ -41,12 +42,15 @@ h2{
 }
 
 .button{
+    position: sticky;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(241, 0, 0);
     border:groove;
     float: left;
+    display: block;
+    z-index: 999px;
 }
 a{
     text-decoration: none;
